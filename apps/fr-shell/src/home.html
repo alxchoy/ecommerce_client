@@ -1,0 +1,32 @@
+<single-spa-router>
+
+    <!-- This is the single-spa Layout Definition for your microfrontends.
+    See https://single-spa.js.org/docs/layout-definition/ for more information.
+
+      
+
+    Example layouts you might find helpful: -->
+
+  <!-- <nav>
+    <application name="@org/navbar"></application>
+  </nav>
+  <route path="settings">
+    <application name="@org/settings"></application>
+  </route> -->
+
+  <div class="absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-center">
+		<img src="./assets/books.png" alt="BookStore" class="my-0 mx-auto" />
+		<h1 class="font-medium text-2xl my-7">
+			A simple micro-frontend BookStore app
+		</h1>
+		<div class="grid grid-cols-2 gap-4">
+			
+		</div>
+	</div>
+
+  <main>
+    <route path="docs">
+      <application name="@pelu/fr-docs"></application>
+    </route>
+  </main>
+</single-spa-router>
